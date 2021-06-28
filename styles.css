@@ -12,6 +12,10 @@ a {
   color: #39A2DB;
 }
 
+footer {
+  text-align: center;
+}
+
 .accordion {
   margin-top: 10px;
 }
