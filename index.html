@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href=styles.css>
+  <title>Vaccine Hub</title>
+</head>
+
+<body>
+  <section id="title">
+    <h1>Julian's Residual Vaccine Hub</h1>
+    <p>Source #1: Taipei Hospitals <a href="https://www-ws.gov.taipei/Download.ashx?u=LzAwMS9VcGxvYWQvNjg0L3JlbGZpbGUvNTYyMTYvODQwOTI5Mi9hMTNkZWM3Zi1jNGZkLTRmY2YtYTQyMi02Nzg3YWNhM2NiZjgucGRm&n=6I6r5b6357SN55ar6IuX5bCI6LKs6ZaA6Ki66Yar6Zmi5ZCN5ZauLnBkZg%3d%3d&icon=.pdf">here</a></p>
+    <p>Source #2: New Taipei Hospitals <a href="https://vaccine.ntpc.gov.tw/info/?fbclid=IwAR0x046-2myjmLakGNQNAIcvM6nBF-XyGlHNEuoKtmWikEpoRszMTzKXtcc">here</a></p>
+  </section>
+  <section class="accordion" id="confirmedPlaces">
+    <h2>Confirmed Places to Sign Up (ordered by opening time)</h2>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="triServiceHeader">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#triServiceInfo" aria-expanded="false" aria-controls="triServiceInfo">
+          9:00 A.M.: 三軍總醫院 (san1jun1) (Tri-Service General Hospital) (AZ)
+        </button>
+      </h2>
+      <div id="triServiceInfo" class="accordion-collapse collapse" aria-labelledby="triServiceHeader" data-bs-parent="#confirmedPlaces">
+        <div class="accordion-body">
+          <a href="https://www2.ndmctsgh.edu.tw/newwebreg/Register/Doctors?pos=B&DeptCode=11A&DeptGroup=4">Registration Link</a>
+          <p>They will notify people from 5:00 to 5:10. Must arrive by 5:30.</p>
+          <p>Located in Neihu (20min drive): 台北市內湖區成功路二段325號</p>
+          <p>初診人員需至門診大廳櫃台辦理初診手續.</p>
+          <p>First-time patients need to go to the counter of the outpatient hall to complete the first-time consultation procedures.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="taiShanHeader">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#taiShanInfo" aria-expanded="false" aria-controls="taiShanInfo">
+          10:30 A.M.: 輔大醫院 (fu3da4) (Fu Jen Catholic University Hospital) (Moderna + AZ)
+        </button>
+      </h2>
+      <div id="taiShanInfo" class="accordion-collapse collapse" aria-labelledby="taiShanHeader" data-bs-parent="#confirmedPlaces">
+        <div class="accordion-body">
+          <a href="http://www.hospital.fju.edu.tw/News/Content?CID=1422">This page contains the link to the form</a>
+          <br>
+          <a href="https://forms.gle/bvyHiAJLxVHemLta9">Possible form link (might be different daily)</a>
+          <p>Must arrive within 15 mins of phone call</p>
+          <p>Located in Taishan District (25-30min drive): 新北市泰山區貴子路69號</p>
+          <p>報到地點: 二樓255診間前COVID-19疫苗報到櫃檯</p>
+          <p>Registration location: COVID-19 vaccine registration counter in front of the 255 consultation room on the second floor</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="rongMinHeader">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rongMinInfo" aria-expanded="false" aria-controls="rongMinInfo">
+          11:00 A.M.: 榮民總醫院 (rong2min2) (Taipei Veterans Hospital) (Moderna + AZ)
+        </button>
+      </h2>
+      <div id="rongMinInfo" class="accordion-collapse collapse" aria-labelledby="rongMinHeader" data-bs-parent="#confirmedPlaces">
+        <div class="accordion-body">
+          <a href="https://www6.vghtpe.gov.tw/reg/c19vaccLine.do">Registration Link</a>
+          <p>It looks like they pool registrations from M-W, and Th-Fr together.</p>
+          <strong>More info</strong>
+          <p>If selected, they will start calling around 4:00 P.M. Must arrive within 1 hour.</p>
+          <p>There are two possible locations (both in Beitou, 30min drive) they will ask you to go to:</p>
+          <p>1. 孝威館 (xiao4wei1guan3)：台北市北投區石牌路二段322號</p>
+          <p>2. 第一門診2樓「COVID-19疫苗接種區」：台北市北投區石牌路二段201號</p>
+          <img src="images/rongMinMap.png" class="img-fluid" alt="map of both locations">
+          <a href="https://www.vghtpe.gov.tw/vghtpe/files/news/1100628.pdf">Link to source website, in case info changes</a>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="macKayHeader">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#macKayInfo" aria-expanded="false" aria-controls="macKayInfo">
+          12:00 Noon: 台北/淡水 馬偕紀念醫院 (ma3xie2) (MacKay Memorial Hospital) (Moderna + AZ)
+        </button>
+      </h2>
+      <div id="macKayInfo" class="accordion-collapse collapse" aria-labelledby="macKayHeader" data-bs-parent="#confirmedPlaces">
+        <div class="accordion-body">
+          <a href="https://www.mmh.org.tw/webpage-tpe.php?id=207#%E6%AE%98%E5%8A%91">Registration Link</a>
+          <p>ID format must conform. First, try: A130283234. If that doesn’t work, confirmed fake: A130283232</p>
+          <div class="accordion" id="macKay-locations">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="macKayTaipeiHeader">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#macKayTaipeiInfo" aria-expanded="false" aria-controls="macKayTaipeiInfo">
+                  More info on MacKay Taipei
+                </button>
+              </h2>
+              <div id="macKayTaipeiInfo" class="accordion-collapse collapse" aria-labelledby="macKayTaipeiHeader" data-bs-parent="#macKay-locations">
+                <div class="accordion-body">
+                  <p>Taipei location (20min drive): 台北市中山區中山北路二段92號</p>
+                  <p>MacKay Taipei will finish notifying people by 5:00 P.M. weekdays, and noon on Saturdays.</p>
+                  <img src="images/macKayMap.jpg" class="img-fluid" alt="map of MacKay location">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="macKayDansuiHeader">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#macKayDansuiInfo" aria-expanded="false" aria-controls="macKayDansuiInfo">
+                  More info on MacKay Dansui
+                </button>
+              </h2>
+              <div id="macKayDansuiInfo" class="accordion-collapse collapse" aria-labelledby="macKayDansuiHeader" data-bs-parent="#macKay-locations">
+                <div class="accordion-body">
+                  <p>Dansui location (30-40min drive): 新北市淡水區民生路45號; go to 達馬偕樓3樓356診間 (3rd floor, rm 356)</p>
+                  <p>No clear time when MacKay Dansui starts to notify people.</p>
+                  <p>MacKay Dansui requires that you arrive and check in by 4:40 P.M. weekdays, or 11:40 A.M. on Saturdays</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <p>如未曾於馬偕醫院看診，須先持前述證件至掛號櫃台處辦理初診報到，再至診間。</p>
+          <p>If you have not seen a doctor at Mackay Hospital, you must first go to the registration counter to register for the first consultation with the aforementioned documents (ARC/passport/health card), and then go to the consultation room.</p>
+          <p>No need for another info link, because the registration page has all the info.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="farEasternHeader">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#farEasternInfo" aria-expanded="false" aria-controls="farEasternInfo">
+          3:30 P.M.: 亞東醫院 (ya4dong1) (Far Eastern Memorial Hospital) (AZ)
+        </button>
+      </h2>
+      <div id="farEasternInfo" class="accordion-collapse collapse" aria-labelledby="farEasternHeader" data-bs-parent="#confirmedPlaces">
+        <div class="accordion-body">
+          <a href="https://hos.femh.org.tw/newfemh/webreg_net/vacccontent.aspx">Registration Link</a>
+          <p>They will notify people from 4:00 to 4:15. Must arrive by 4:30.</p>
+          <p>Located in Banqiao (30-40min drive): 新北市板橋區南雅南路二段21號</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="maybes">
+    <h2>Places to Check Back On</h2>
+    <div class="accordion" id="possiblePlaces">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="cathayHeader">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cathayInfo" aria-expanded="false" aria-controls="cathayInfo">
+            國泰綜合醫院 (guo2tai4) (Cathay General Hospital) (Moderna + AZ)
+          </button>
+        </h2>
+        <div id="cathayInfo" class="accordion-collapse collapse" aria-labelledby="cathayHeader" data-bs-parent="#possiblePlaces">
+          <div class="accordion-body">
+            <a href="https://reg.cgh.org.tw/tw/reg/main.jsp?source=V">First website to check: Covid-19 Zone</a>
+            <br>
+            <a href="https://reg.cgh.org.tw/tw/reg/COVID_02.jsp">Possible registration site (doesn't include residual appointments yet)</a>
+            <p>Phone numbers: (02)2708-2121 #1286 or #9</p>
+            <p>Just a 10 min drive: 台北市大安區仁愛路四段280號</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="cardinalHeader">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cardinalInfo" aria-expanded="false" aria-controls="cardinalInfo">
+            永和耕莘醫院 (geng1shen1) (Yonghe Cardinal Tien Hospital) (Moderna + AZ)
+          </button>
+        </h2>
+        <div id="cardinalInfo" class="accordion-collapse collapse" aria-labelledby="cardinalHeader" data-bs-parent="#possiblePlaces">
+          <div class="accordion-body">
+            <a href="http://newreg.cthyh.org.tw/new_CthWebReg/frame05.html">Sidebar on the left may be updated to include residual vax</a>
+            <p>Seems impossible to reach by phone</p>
+            <p>Located in Yonghe (15-25min drive): 新北市永和區中興街80號</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="wanFangHeader">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#wanFangInfo" aria-expanded="false" aria-controls="wanFangInfo">
+            萬芳醫院 (wan4fang1) (Wanfang Hospital) (Moderna + AZ)
+          </button>
+        </h2>
+        <div id="wanFangInfo" class="accordion-collapse collapse" aria-labelledby="wanFangHeader" data-bs-parent="#possiblePlaces">
+          <div class="accordion-body">
+            <a href="https://www.wanfang.gov.tw/index2.aspx">According to person on phone, they will post info on this website</a>
+            <p>Located in Wenshan District (15min drive): 台北市文山區興隆路三段111號</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
